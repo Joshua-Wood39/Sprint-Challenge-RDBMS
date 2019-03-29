@@ -4,7 +4,7 @@ exports.up = function(knex) {
         tbl.increments();
 
         tbl
-        .text('description')
+        .text('a_description')
         .notNullable()
 
         tbl
@@ -12,7 +12,7 @@ exports.up = function(knex) {
         .notNullable()
 
         tbl
-        .boolean('completed')
+        .boolean('a_completed')
         .notNullable();
 
         tbl
