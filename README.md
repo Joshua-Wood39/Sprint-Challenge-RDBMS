@@ -33,9 +33,20 @@ This will be akin to the Web API that you built in the last sprint, only this ti
 Demonstrate your understanding of this week's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 1. Explain the difference between `RDBMS` and `SQL`.
-1. Why do tables need a `primary key`?
-1. What is the name given to a table column that references the primary key on another table.
-1. What do we need in order to have a _many to many_ relationship between two tables.
+
+  --Uhm. RDBMS is the database, which USES Structured Query Language to set up/manipulate the data in the database (even setting up structures within the database, like tables, etc.)
+
+2. Why do tables need a `primary key`?
+
+  --It provides row-level accessibility, and can consist of multiple columns.
+
+3. What is the name given to a table column that references the primary key on another table.
+
+  --A foreign key
+
+4. What do we need in order to have a _many to many_ relationship between two tables.
+
+  --If there were three tables, two with primary keys, the third connecting table would use two foreign keys to link to the other tables. Though, Luis insists this is just an illusion, since the two paired relationships are one-to-many. ;)
 
 ## Project Set Up
 
